@@ -1,0 +1,67 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.container
+{
+	height:100vh;
+	background: url(netflix.jpg);
+	width: 100%;
+	text-align: center;
+	/*background-image: blur;*/
+}
+.signIn
+{
+	position: absolute;
+	top: 8%;
+	left: 90%;
+	background: #E50914; 
+	border: none;
+	color: white;
+	width: 80px;
+	height: 40px;
+	font-size: 15px;
+  	border-radius: 5px; /*rounded corners*/
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+.signIn:hover,.join:hover
+{
+	background-color: #FF0000;
+	color: white;
+}
+
+.subContainer
+{
+	margin-top: 70px; 
+}
+
+.See
+{
+	font-size: 80px;
+	font-weight: 700; /*how much bold */
+	color: white;
+	font-family: Helvetica;
+}
+.Watch
+{
+	font-size: 40px;
+	font-weight: 300; /*how much bold */
+	color: white;
+	font-family: Helvetica;	
+}
+
+.join
+{
+	border: none;
+	background: #E50914; 
+	color: white;
+	padding: 20px 40px; /*top&bottom:20px, right&left:80px*/
+	font-size: 30px;
+	font-family: Helvetica;
+	transition-duration: 0.4s;
+  	cursor: pointer;
+}
