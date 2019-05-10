@@ -1,0 +1,92 @@
+body, html
+{
+	color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 1.2px;
+    background: #141414;
+}	
+#netflix-logo
+{
+	width: 150px;
+	height: 32px;
+	margin-left: 20.5%;
+	margin-top: 12.5%;
+}
+.logo
+{
+	display: inline-block;
+	line-height: 90px;
+}
+.icon,.icon2,.kidsicon
+{
+	height: 10vw;
+    width: 10vw;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+    border: .3em solid rgba(0,0,0,.4);
+    background-size: cover;
+    background-color: #333;
+}
+.icon
+{
+	background-image: url('../img/prof.png');
+}
+.icon2
+{
+	background-image: url('../img/prof1.png');
+}
+.kidsicon
+{
+	background-image: url('../img/kids.png');
+}
+.profiles
+{
+	display: block;
+    text-align: center;
+    margin-top: 4%;
+}
+.heading
+{
+	width: 100%;
+    color: #fff;
+    font-size: 3.5vw;
+}
+ul
+{
+	display: block;
+	list-style: none;
+   
+}
+.profile
+{
+	display: inline-block;
+	margin: 5% 2vw 0 0;
+	width: 10vw;
+    font-size: 10px;
+    line-height: 1.2;
+    text-align: center;
+}
+.profile-link
+{
+	text-decoration: none;
+	cursor: pointer;
+}
+.profile-name
+{
+	line-height: 1.2em;
+    color: grey;
+    display: block;
+    text-align: center;
+    font-size: 1.3vw;
+    margin: .8em 0;
+}
+.profile-name:hover
+{
+	color: white;
+}
+.icon:hover,.icon2:hover,.kidsicon:hover
+{
+	border: .3em solid rgba(255,255,255,255);
+}

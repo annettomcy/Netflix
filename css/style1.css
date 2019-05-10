@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background: url(new.jpg);
+    background: url('../img/netflix1.jpg');
     background-size: cover;
     background-position: center;
     font-family: Helvetica;
@@ -39,7 +39,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.loginbox input[type="text"], input[type="password"]
+.loginbox input[type="email"], input[type="password"]
 {
     border: none;
     border-bottom: 1px solid #fff;
@@ -58,6 +58,19 @@ h1{
     color: #fff;
     font-size: 18px;
     border-radius: 5px;
+}
+#netflix-logo
+{
+    width: 167px;
+    height: 50px;
+    margin-left: 24%;
+    margin-top: 12%;
+    margin-bottom: -12%;
+}
+.logo
+{
+    display: inline-block;
+    line-height: 90px;
 }
 .loginbox input[type="submit"]:hover
 {

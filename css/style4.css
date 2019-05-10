@@ -1,0 +1,195 @@
+body
+{
+  margin: 0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #333;
+  background-color: white;
+  font-size: 16px;
+}   
+#netflix-logo
+{
+  width: 167px;
+  height: 50px;
+  margin-left: 24%;
+  margin-top: 12%;
+  margin-bottom: -12%;
+}
+.logo
+{
+  display: inline-block;
+  line-height: 90px;
+}
+.signIn
+{
+  float: right;
+  color: #333;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 90px;
+  float: right;
+  margin: 0 3%;
+  text-decoration: none;
+  cursor: pointer;
+}
+.signIn:hover
+{
+  cursor: pointer;
+  text-decoration: underline;
+}
+header
+{
+  border-bottom: 1px solid;
+  border-bottom-color: rgb(230, 230, 230);   
+}
+.divider
+{
+  font-size: 1em;
+  color: #a6a6a6;
+  height: 0;
+  width: 100%;
+  margin-top: 150px;
+  border-top: 1px solid #e6e6e6;
+}
+.footer-top > a
+{
+  text-decoration: none;
+  font-size: 1em;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+.foot
+{
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 90%;
+}
+footer
+{
+  background-color: #f3f3f3;
+  font-size: 1em;
+  color: #a6a6a6;
+  width: 100%;
+  height: 100%;
+}
+.lists
+{
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  display: block;
+  list-style-type: disc;
+  max-width: 1000px;
+}
+.footitem
+{
+  list-style: none;
+  margin-left: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 16px;
+  display: inline-block;
+  min-width: 100px;
+  width: 25%;
+  padding-right: 12px;
+  vertical-align: top;
+}
+.footitem > a
+{
+  text-decoration: none;
+  color: #a6a6a6;
+}
+.price
+{
+  color: #e50914;
+}
+.svg-icon
+{
+  fill: #e50914;
+  height: 18px;
+  width: 18px;
+}
+.hdAvail
+{
+  margin-top: 20px;
+  color: #737373;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 140px;
+}
+.hdAvail > span > a
+{
+  text-decoration: none;
+}
+table 
+{
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+td 
+{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+.ic
+{
+  border: 1px solid #e50914;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  background-color: #e50914;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 15px;
+}
+.pl
+{
+  margin-top: 5px;
+  margin-left: 730px;
+  margin-bottom: 20px;
+}
+.continue
+{   
+    margin: auto;
+    margin-top: 80px;
+    width: 30%;
+    text-align: center;
+    background-color: #e50914;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 20px 10px;
+}
+.continue:hover,.con:hover
+{
+  background-color: #FF0000;
+  color: white;
+}
+.con
+{
+  cursor: pointer;
+}
+.step
+{
+    margin-top: 42px;
+    margin-left: 140px;
+}
+h1
+{
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 23px;
+}
+.para
+{
+    display: block;
+    margin-top: 5px;
+}

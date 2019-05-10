@@ -1,0 +1,158 @@
+body
+{
+	margin: 0;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: #333;
+	background-color: white;
+}		
+#netflix-logo
+{
+	width: 167px;
+	height: 50px;
+	margin-left: 24%;
+	margin-top: 12%;
+	margin-bottom: -12%;
+}
+.logo
+{
+	display: inline-block;
+	line-height: 90px;
+}
+.signIn
+{
+	float: right;
+    color: #333;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 90px;
+	float: right;
+	margin: 0 3%;
+	/*padding: 7px 17px;
+	border-radius: 3px;*/
+	text-decoration: none;
+	cursor: pointer;
+}
+.signIn:hover
+{
+	cursor: pointer;
+    text-decoration: underline;
+}
+header
+{
+	border-bottom: 1px solid;
+	border-bottom-color: rgb(230, 230, 230);	 
+}
+.device
+{
+	display: block;
+	margin: auto;
+	margin-top: 135px;
+	width: 260px;
+}
+.step
+{
+	margin-top: 3em;
+	margin-bottom: -2.3em;
+	display: block;
+	color: #000;
+	text-align: center;
+    font-size: 13px;
+}
+.steptitle
+{
+	margin-bottom: 0.4em;
+	display: inline-block;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+}
+.container
+{
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	text-align: center;
+}
+.btn
+{
+	margin-top: .6em;
+	border: none;
+	cursor: pointer;
+	border-radius: 2px;
+	min-height: 48px;
+    font-weight: 400;
+    font-size: 17px;
+    padding: .75rem 25.33333333px;
+    width: 25%;
+    line-height: 19px;
+    color: #fff;
+    background-color: #e50914;
+}
+.btn:hover
+{
+	background-color: #FF0000;
+	color: white;
+}
+.divider
+{
+	font-size: 1em;
+    color: #a6a6a6;
+	height: 0;
+    width: 100%;
+    margin-top: 150px;
+    border-top: 1px solid #e6e6e6;
+}
+.footer-top > a
+{
+	text-decoration: none;
+	font-size: 1em;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.foot
+{
+	margin: 0 auto;
+	padding-top: 30px;
+    width: 90%;
+}
+footer
+{
+	background-color: #f3f3f3;
+    font-size: 1em;
+    color: #a6a6a6;
+    width: 100%;
+    height: 100%;
+}
+.lists
+{
+	padding: 0;
+    margin: 0;
+    font-size: 13px;
+    display: block;
+    list-style-type: disc;
+    max-width: 1000px;
+}
+.footitem
+{
+	list-style: none;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+.footitem > a
+{
+	text-decoration: none;
+    color: #a6a6a6;
+}
+.para
+{
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 10px;
+}

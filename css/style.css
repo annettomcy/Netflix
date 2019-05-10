@@ -1,0 +1,112 @@
+body
+{
+	margin: 0;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: white;
+	background-color: black;
+	font-size: 16px;
+}	
+
+header
+{
+	/*background: linear-gradient(0deg,rgba(0,0,0,0) 50%,rgba(0,0,0,.5) 100%),radial-gradient(50% 120%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%), url('../img/neew.jpg');
+*/	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0 ,0 ,0.7)), url('../img/neew.jpg');
+	height: 100vh;
+	background-position: 45% 60%;
+
+}
+*
+{
+	box-sizing: border-box;
+}
+#netflix-logo
+{
+	width: 167px;
+	height: 50px;
+	margin-left: 35%;
+	margin-top: 12%;
+	
+}
+.logo
+{
+	display: inline-block;
+	line-height: 90px;
+}
+header nav
+{
+	text-align: center;
+}
+.signIn
+{
+	color: #fff;
+	float: right;
+	margin-top: 25px;
+	margin-right: 3%;
+	background-color: #e50914;
+	padding: 7px 17px;
+	font-weight: 400;
+	border-radius: 3px;
+	font-size: 16px;
+	text-decoration: none;
+}
+.See
+{
+	font-size: 75px;
+	letter-spacing: .1px;
+	/*font-size: 1.8vw;*/
+    margin: 0.25em 0.67em 0px 0px;
+    text-align: center;
+    padding-top: 60px;
+}
+.Watch
+{
+	font-size: 28px;
+    margin: 0.3em 1em 0px 0px;
+    letter-spacing: .1px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+}
+.join
+{
+	font-size: 30px;
+	color: #fff;
+	background-color: #e50914;
+	padding: 1em 1.5em 1em 2em;
+	letter-spacing: 1.9px;
+	margin: 5% 0em 30% 28%;
+	border: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.signIn:hover,.join:hover
+{
+	background-color: #FF0000;
+	color: white;
+}
+.arrow
+{
+	background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    margin-left: .5em;
+    width: 1em;
+    height: .8em;
+    display: inline-block;
+}
+.icon-cancel,.price-tag,.desktop
+{
+	fill: #fff;
+	font-size: 16px;
+	width: 5%;
+	height: 10%;
+}
+#features > nav
+{
+
+}
